@@ -119,7 +119,5 @@ results/DESeq2_size_factors.csv.
 ## Author
 
 Mahi Choudhary
-
 B.Sc. (Hons.) Biotechnology Undergraduate
 
-Independent Bioinformatics Portfolio Project
