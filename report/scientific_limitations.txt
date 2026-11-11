@@ -1,0 +1,27 @@
+SCIENTIFIC LIMITATIONS
+
+1. SAMPLE SIZE
+The dataset contains three paired breast tumour and adjacent normal samples. Findings require validation in larger independent cohorts.
+
+2. DIFFERENTIAL EXPRESSION
+DESeq2 was used with a paired design (~ patient + condition). Nine circRNAs met the adjusted p-value threshold of 0.05.
+The analysis used a row-sum count filter >= 10, which differs from the filtering procedure described in the GEO record.
+
+3. DATA QUALITY
+Substantial variation in library sizes and zero-count proportions was observed between samples. These differences may affect statistical power and interpretation.
+
+4. GENOMIC ANNOTATION
+Candidate host genes were assigned using same-strand genomic containment against Ensembl GRCh38 release 115.
+The original circRNA coordinate convention has not been independently verified. Host-gene assignments remain provisional.
+
+5. BIOLOGICAL INTERPRETATION
+Published gene-level functions do not establish the biological functions of the corresponding circRNAs.
+
+6. FUNCTIONAL ENRICHMENT
+Formal GO/KEGG enrichment was not performed because an appropriate background gene set was not established.
+
+7. EXPERIMENTAL VALIDATION
+No independent experimental validation was performed. The identified circRNAs should not be described as validated biomarkers.
+
+8. NORMALIZED MATRIX
+A discrepancy between sample labels and count patterns in the published normalized matrix requires further investigation.
